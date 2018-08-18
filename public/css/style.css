@@ -1,0 +1,64 @@
+body {
+	background: #eee;
+}
+
+.main-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.main-wrapper img{
+	max-width: 100%;
+}
+
+.comments-wrapper{
+	max-width: 600px
+	
+}
+
+.comments {
+	padding-left: 10px;
+}
+
+.comments li{
+	position: relative;
+	padding: 10px 10px 10px 20px;
+	list-style: none;
+	margin-bottom: 10px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.comments li span{
+	margin-left: 30px
+}
+
+.comments li img{
+	position: absolute;
+	left: 5px;
+	top: 10px;
+	width: 36px;
+}
+
+.comments p {
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-size: 18px;
+	line-height: 1.58;
+	font-family: 'medium-content-serif-font', Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.comments .author {
+	color: #D21307;
+}
+
+.comments .date {
+	color: #888;
+	font-size: 12px;
+}
+
+#newCommentForm {
+	background-color: #f5f5f5;
+	padding: 10px;
+	border-top: 1px dashed #999;
+}
